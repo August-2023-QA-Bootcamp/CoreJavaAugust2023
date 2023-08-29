@@ -1,6 +1,7 @@
 package lec05_01_java_constructor;
 
 public class Employee {
+	// Global variable or class variable
 	// variables declared
 	public String empName;
 	public int empId;
