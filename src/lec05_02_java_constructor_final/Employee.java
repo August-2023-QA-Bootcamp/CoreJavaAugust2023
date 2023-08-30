@@ -13,7 +13,7 @@ public class Employee {
 	}
 
 	// parameterized Constructor declared
-	public Employee(String empName, int empId, char empGender, boolean fullTimeEmployee) {
+	public Employee (String empName, int empId, char empGender, boolean fullTimeEmployee) {
 		this.empName = empName;
 		this.empId = empId;
 		this.empGender = empGender;
