@@ -1,4 +1,4 @@
-package lec11_04_java_access_modifier_private_type;
+package lec11_05_java_access_modifier_private_type;
 
 public class G {
 	// variable declared

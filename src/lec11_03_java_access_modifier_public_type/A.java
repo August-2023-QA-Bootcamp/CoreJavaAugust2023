@@ -21,4 +21,5 @@ public class A {
 		System.out.println(a.info1);
 		a.a(); // method initialized here
 	}
+
 }
