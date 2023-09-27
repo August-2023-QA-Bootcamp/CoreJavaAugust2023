@@ -36,6 +36,6 @@ public abstract class ElectricCar {
 	
 	// this is a return type abstract method
 	// return type abstract method can also be created inside the Abstract class
-	public abstract String carNameString ();
+	public abstract String carName ();
 		
 }

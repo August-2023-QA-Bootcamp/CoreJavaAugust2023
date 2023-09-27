@@ -1,4 +1,4 @@
-package lec12_02_java_oop_abstraction;
+package lec13_02_java_oop_abstraction;
 
 // Abstract Class contains both abstract and non abstract methods
 // Abstract Class names starts with UpperCase like a regular class
@@ -11,7 +11,11 @@ package lec12_02_java_oop_abstraction;
 // An abstract class can inherit only one abstract class or one regular class by extends key word
 // An abstract class can't inherit an Interface by extends key word
 
-public abstract class ElectricCar extends FlyingCar {
+// implements keyword is used to inherit Interface in abstract class
+// an abstract class can inherit more than one Interface
+// an abstract class cannot inherit a regular class or abstract class by implements keyword
+
+public abstract class ElectricCar extends FlyingCar implements Rocket, HoverCar{
 	// Global variable
 	// Inside Abstract class, variable can be declared or initialized
 	public int costOfTesla;
