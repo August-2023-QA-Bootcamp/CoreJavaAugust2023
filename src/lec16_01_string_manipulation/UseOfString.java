@@ -1,4 +1,6 @@
-package lec15_string_manipulation;
+package lec16_01_string_manipulation;
+
+import java.util.Arrays;
 
 // Mostly interview question
 // Use the concept in Java coding challenge
@@ -221,6 +223,7 @@ public class UseOfString {
 		String s14 = "Tofael";
 		System.out.println(s13.concat(s14));
 		
+		
 		// Easy
 		// The Java String class contains() method searches the sequence of characters in this string. This is used as method in many places
 		System.out.println("\n ------------------------------------------------------------------------");
@@ -288,7 +291,7 @@ public class UseOfString {
         System.out.println(result);
 		
         // Array
-		System.out.println("\n------------------------------------------------------------------------");
+        System.out.println("\n------------------------------------------------------------------------");
 		// same data type or a cluster of data present
 		// How to write an Array: first data type, then [], it is called container, the student (OBJECT) is the name of Array, 
 		// [5] represent total 5 data is present
@@ -339,22 +342,27 @@ public class UseOfString {
 		
 		// How to write an Array: first data type, then []  container, then array name = data inside curly braces, ended up with semicolon
 		
+		System.out.println("\n------------------------------------------------------------------------");	
+		// Tough: 2, will be used for Java coding challenge, very very important
+		// in short, split() method ---> convert a String to a String Type Array, comma separated word by word
+		// the array of strings computed by splitting this string around matches of the given regular expression
+		String str1 = "Mr owl ate my metal worm";
+		String [] wordByword = str1.split(" ");
+		// System.out.println(WordByWord); // This will not show correct outcome, because "Arrays" class is needed for Array manipulation
+		// Arrays is a class, need to import and used to manipulate Array. you can't print Array without the help of Arrays class
+		System.out.println(Arrays.toString(wordByword));
 		
-       // Student should see Java read and write before come to next class
+		System.out.println("\n------------------------------------------------------------------------");	
+		// Tough: 3, will be used for Java coding challenge, very very important
+		// we use toCharArray() method to create an Array from String [which is char type] 
+		// comma separated character By Character
+		String str2 = "Mr owl ate my metal worm";	
+		char [] characterByCharacter = str2.toCharArray();
+		// System.out.println(charcterByCharacter); // This will not show correct outcome, because "Arrays" class is needed for Array manipulation
+		// Arrays is a class, need to import and used to manipulate Array. you can't print Array without the help of Arrays class
+		System.out.println(Arrays.toString(characterByCharacter));
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		// we should use format()
 		
 		
 		
