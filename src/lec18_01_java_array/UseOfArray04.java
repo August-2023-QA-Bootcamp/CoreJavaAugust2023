@@ -28,7 +28,7 @@ public class UseOfArray04 {
 		a[0] = 25;
 		a[1] = 39;
 		a[4] = 76;
-		// a[8] = 99; // no compilation error, java.lang.ArrayIndexOutOfBoundsException
+		// a[8] = 99; // no compilation error, run time error. java.lang.ArrayIndexOutOfBoundsException
 		System.out.println("\nAfter update, the value of a[0] is: " + a[0]); // final output:?
 		System.out.println("To find the list of an Array: " + Arrays.toString(a));
 		System.out.println("The length: " + a.length);
